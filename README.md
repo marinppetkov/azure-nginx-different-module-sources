@@ -1,4 +1,4 @@
-# Deploying azure VM with nginx with four modules from different sources
+# Deploying nginx on azure VM using four modules from different sources
 * terraform-azurerm-network - GitHub
 * terraform-azurerm-nginxserver - GitLab
 * terraform-azurerm-securitygroups - Bitbucket
