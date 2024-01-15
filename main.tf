@@ -11,7 +11,7 @@ provider "azurerm" {
 }
 
 module azure-network{
-  source = "git::https://github.com/marinppetkov/terraform-azurerm-network.git?ref=1.0.0"
+  source = "git@github.com:marinppetkov/terraform-azurerm-network.git?ref=1.0.0"
   prefix                    = var.prefix
   location                  = var.location
   vnet_address_space        = var.vnet_address_space
